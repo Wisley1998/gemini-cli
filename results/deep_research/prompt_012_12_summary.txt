@@ -1,0 +1,82 @@
+Prompt 文件: prompt_012_12.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 10:56:53
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 16f092e7-c4ee-4e13-9e1e-209bd2ea2033            │
+│  Tool Calls:                 23 ( ✓ 15 x 8 )                                 │
+│  Success Rate:               65.2%                                           │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  5m 3s                                           │
+│  Agent Active:               6m 8s                                           │
+│    » API Time:               2m 59s (48.6%)                                  │
+│      • gemini-2.5-flash:     2m 59s (100.0%)                                 │
+│    » Tool Time:              3m 9s (51.4%)                                   │
+│      • fetch_url (fetcher):  44.2s (23.3%)                                   │
+│        ‣ MCP Call:           44.1s (99.6%)                                   │
+│          - Page Load:        8.6s (19.5%)                                    │
+│          - DOMContentLoaded: 1.5s (3.3%)                                     │
+│          - Navigation:       1.2s (2.7%)                                     │
+│          - Other:            672ms (1.5%)                                    │
+│          - Browser Launch:   102ms (0.2%)                                    │
+│          - Context Creation: 4ms (0.0%)                                      │
+│          - Page Close:       2ms (0.0%)                                      │
+│          - Get Content:      1ms (0.0%)                                      │
+│      • MCP Init:             34.1s (18.0%)                                   │
+│      • browser_click         18.9s (10.0%)                                   │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           9.8s (51.7%)                                    │
+│      • browser_navigate_back:7.4s (3.9%)                                     │
+│      • browser_type          6.7s (3.5%)                                     │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           1.4s (20.8%)                                    │
+│      • browser_snapshot      5.3s (2.8%)                                     │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           130ms (2.4%)                                    │
+│      • browser_press_key     3.3s (1.7%)                                     │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           3.3s (98.5%)                                    │
+│        ‣ Processing:         1ms (0.0%)                                      │
+│      • browser_navigate      1.8s (1.0%)                                     │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           7.2s (391.2%)                                   │
+│      • browser_evaluate:     178ms (0.1%)                                    │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  1.2s (3.6%)                                     │
+│        ‣ Connection:         1.2s (99.8%)                                    │
+│        ‣ Discovery:          3ms (0.2%)                                      │
+│                                                                              │
+│      • playwright:           1.3s (3.8%)                                     │
+│        ‣ Connection:         1.3s (99.8%)                                    │
+│        ‣ Discovery:          2ms (0.2%)                                      │
+│                                                                              │
+│      • fetcher:              1.5s (4.5%)                                     │
+│        ‣ Connection:         1.5s (99.9%)                                    │
+│        ‣ Discovery:          1ms (0.1%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  30.0s (88.1%)                                   │
+│        ‣ Connection:         30.0s (100.0%)                                  │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│    » Tool Validation:        1ms                                             │
+│    » User Confirmation:      4ms                                             │
+│    » Tool Execution:         1m 8s                                           │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash               24      1,580,696            649             │
+│                                                                              │
+│  Savings Highlight: 929,169 (58.8%) of input tokens were served from the     │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

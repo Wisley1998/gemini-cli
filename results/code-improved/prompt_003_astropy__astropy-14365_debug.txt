@@ -1,0 +1,19 @@
+调试信息 - 输出总长度: 1583 字符
+================================================================================
+
+最后 5000 字符:
+(node:97277) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:97277) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(node:97293) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:97293) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Loaded cached credentials.
+[MCP Debug] Internal timing capture enabled for playwright (DEBUG=pw:api,pw:browser)
+[MCP Debug] Writing stderr DEBUG output for playwright to /tmp/mcp-debug-playwright-1761115840033.log
+[MCP Debug] Internal timing capture enabled for fetcher (DEBUG=pw:api,pw:browser)
+[MCP Debug] Writing stderr DEBUG output for fetcher to /tmp/mcp-debug-fetcher-1761115840034.log
+[MCP Debug] Retrieved 0 log lines from static Map for github/get_issue
+[MCP Debug] No DEBUG logs captured for github. Internal timing breakdown unavailable.
+Error when talking to Gemini API Full report available at: /var/folders/l3/gql4x0wn5jgffh7p8787nf_w0000gn/T/gemini-client-error-Turn.run-sendMessageStream-2025-10-22T06-51-23-837Z.json
+

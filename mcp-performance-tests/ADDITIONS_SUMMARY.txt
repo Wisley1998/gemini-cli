@@ -1,0 +1,202 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║           ✅ MCP 性能测试套件 - 新增完成！                        ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+## 🎉 已添加的新测试
+
+### 1. Pydantic MCP Run Python ⭐
+   📦 命令: uvx mcp-run-python@latest stdio
+   🔧 功能: Python代码沙箱执行
+   ⚡ 特点: WebAssembly隔离、自动依赖管理
+   📝 测试: 简单代码、带依赖代码、数学计算
+
+### 2. Fetcher MCP Server ⭐
+   📦 命令: npx -y fetcher-mcp
+   🔧 功能: Playwright网页抓取
+   ⚡ 特点: JavaScript执行、智能内容提取、并行处理
+   📝 测试: 单页抓取、HTML返回、批量抓取
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📊 完整测试列表（5个）
+
+1️⃣  GitHub MCP Server
+   └─ ./quick-test.sh github
+   └─ npm run test:github
+
+2️⃣  Playwright MCP Server
+   └─ ./quick-test.sh playwright
+   └─ npm run test:playwright
+
+3️⃣  Huggingface MCP Server
+   └─ ./quick-test.sh huggingface
+   └─ npm run test:huggingface
+
+4️⃣  Pydantic MCP Run Python ⭐ NEW
+   └─ ./quick-test.sh pydantic
+   └─ npm run test:pydantic
+
+5️⃣  Fetcher MCP Server ⭐ NEW
+   └─ ./quick-test.sh fetcher
+   └─ npm run test:fetcher
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📁 新增/更新的文件
+
+✅ test-pydantic.js          - Pydantic测试脚本
+✅ test-fetcher.js           - Fetcher测试脚本
+✅ package.json              - 添加新的npm脚本
+✅ test-all.js               - 包含所有5个测试
+✅ quick-test.sh             - 添加pydantic和fetcher选项
+✅ README.md                 - 更新测试列表
+✅ NEW_TESTS.md              - 新测试详细说明
+✅ .gemini/settings.json     - 添加新MCP server配置
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🚀 立即测试
+
+### 方式1: 使用快速测试脚本
+
+cd mcp-performance-tests
+
+# 测试新增的 Pydantic Run Python
+./quick-test.sh pydantic
+
+# 测试新增的 Fetcher
+./quick-test.sh fetcher
+
+# 测试所有（包括新增的）
+./quick-test.sh all
+
+### 方式2: 使用 npm 命令
+
+npm run test:pydantic    # Pydantic Run Python
+npm run test:fetcher     # Fetcher
+npm test                 # 所有测试
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚙️ 依赖要求
+
+### Pydantic Run Python 需要:
+✓ Python (已安装 ✅)
+✓ Deno (需要安装)
+  → brew install deno
+✓ uvx (需要安装)
+  → pip install uv
+
+### Fetcher MCP 需要:
+✓ Node.js (已安装 ✅)
+✓ Playwright Chromium (首次运行时安装)
+  → npx playwright install chromium
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📊 预期性能
+
+### Pydantic Run Python
+启动+握手:    ~2000ms
+工具列表:     ~10ms
+首次执行:     ~1000ms
+二次执行:     ~500ms
+总耗时:       ~4秒
+
+### Fetcher MCP
+启动+握手:    ~3000ms
+工具列表:     ~5ms
+首次执行:     ~2500ms
+二次执行:     ~1500ms
+总耗时:       ~7秒
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📋 测试内容
+
+### Pydantic Run Python
+✓ 执行简单Python代码
+  └─ print() + 简单运算
+✓ 执行带依赖的代码
+  └─ import datetime
+✓ 执行数学计算
+  └─ import math
+
+### Fetcher MCP
+✓ 抓取简单网页 (example.com)
+  └─ 智能内容提取
+✓ 返回原始HTML
+  └─ 不提取，保留完整HTML
+✓ 批量抓取多个网页
+  └─ 并行处理多个URL
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🔧 MCP Server 配置
+
+已在 .gemini/settings.json 中添加:
+
+{
+  "mcpServers": {
+    ...
+    "pydantic-run-python": {
+      "command": "uvx",
+      "args": ["mcp-run-python@latest", "stdio"],
+      "env": {}
+    },
+    "fetcher": {
+      "command": "npx",
+      "args": ["-y", "fetcher-mcp"],
+      "env": {}
+    }
+  }
+}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📚 文档
+
+详细说明请查看:
+• NEW_TESTS.md    - 新测试完整说明
+• README.md       - 项目概述
+• QUICKSTART.md   - 快速开始
+• USAGE.md        - 使用指南
+• FIX_REPORT.md   - 问题修复报告
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ✅ 测试特点
+
+所有测试:
+✓ 完全独立 - 不依赖 gemini-cli
+✓ 自动代理处理 - 智能检测和禁用
+✓ 详细日志 - 带时间戳的完整输出
+✓ 性能对比 - 首次 vs 二次执行
+✓ 完整指标 - 启动、握手、执行、关闭
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🎯 下一步
+
+1. 安装依赖 (如果需要):
+   brew install deno      # Pydantic需要
+   pip install uv         # Pydantic需要
+   npx playwright install chromium  # Fetcher需要
+
+2. 运行测试:
+   ./quick-test.sh pydantic
+   ./quick-test.sh fetcher
+
+3. 查看结果:
+   性能统计会自动显示在终端
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+准备好了吗？开始测试新增的 MCP Servers！ 🚀
+
+cd mcp-performance-tests
+./quick-test.sh pydantic   # 或 fetcher
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

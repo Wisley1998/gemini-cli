@@ -1,0 +1,51 @@
+Prompt 文件: prompt_003_astropy__astropy-14365.txt
+Prompt 类型: swebench
+测试时间: 2025-10-21 17:45:09
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 22ecdac6-9099-4e04-9a99-e607bd4bef60            │
+│  Tool Calls:                 0 ( ✓ 0 x 0 )                                   │
+│  Success Rate:               0.0%                                            │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  31.6s                                           │
+│  Agent Active:               15.4s                                           │
+│    » API Time:               3.8s (25.0%)                                    │
+│      • gemini-2.5-flash:     3.8s (100.0%)                                   │
+│    » Tool Time:              11.5s (75.0%)                                   │
+│      • MCP Init:             11.5s (100.0%)                                  │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  573ms (5.0%)                                    │
+│        ‣ Connection:         568ms (99.1%)                                   │
+│        ‣ Discovery:          5ms (0.9%)                                      │
+│                                                                              │
+│      • playwright:           2.1s (17.9%)                                    │
+│        ‣ Connection:         2.1s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              2.4s (20.9%)                                    │
+│        ‣ Connection:         2.4s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  6.5s (56.2%)                                    │
+│        ‣ Connection:         6.5s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                1         12,968             48             │
+│                                                                              │
+│  Savings Highlight: 12,743 (98.3%) of input tokens were served from the      │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

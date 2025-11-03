@@ -1,0 +1,137 @@
+调试信息 - 输出总长度: 6015163 字符
+================================================================================
+
+最后 5000 字符:
+────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+⠼ Considering the Changes
+(esc to cancel, 3m 40s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+⠴ Considering the Changes
+(esc to cancel, 3m 40s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+⠦ Considering the Changes
+(esc to cancel, 3m 40s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+⠧ Considering the Changes
+(esc to cancel, 3m 40s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+✕ [API Error: Model stream ended without a finish reason.]
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 13 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 13 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 13 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 13 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 13 errors (ctrl+o for details)

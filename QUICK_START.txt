@@ -1,0 +1,40 @@
+═══════════════════════════════════════════════════════════════════
+  �� SWE-bench Workspace 问题修复 - 快速开始
+═══════════════════════════════════════════════════════════════════
+
+问题：Gemini CLI 提示 workspace 错误，无法 git clone
+解决：已生成改进的 prompts（包含绝对路径和详细步骤）
+
+═══════════════════════════════════════════════════════════════════
+  ⚡ 3 步快速使用
+═══════════════════════════════════════???═???══════════════════════? �� SWE-bench Workspace 问题修复 - 快速开始
+════════════════??? prompts 已生成到 swe-bench-prompts-improved/
+
+2️⃣ 测试单个 Prompt
+   python3 run_automated_benchmark_improved.py --range 2-2
+   → 验证是否正常工作
+
+3️⃣ 查看结果
+   ls -la swe-bench-workspace/*/fix_*.patch
+   cat results/code-improved/*_summary.txt
+
+═══════════════════════════════════════════════════════════════════
+  📋 常用命令
+═══════════════════════════════════════════════════════════════════
+
+测试单个══════?mated_benchmark_improved.py --range N-N
+测试前5个： python3 run_automated_benchmark_improved.py --limit 5
+测试10-20： python3 run_automated_benchmark_improved.py --range 10-20
+测试全部：  python3 run_automated_benchmark_improved.py
+
+查看结果：  ls -1 results/code-improved/*_summary.txt
+查看补丁：  ls -1 swe-bench-workspace/*/fix_*.patch
+清理工作区：rm -rf swe-bench-workspace/
+
+═══════════════════════════════════════════════════════════════════
+  📖 详细文档
+═══════════════════════════════════════════════════════════════════
+
+完整操作指南：SWE_BENCH_WORKSPACE_FIX.md
+
+═══════════════════════════════════════════════════════════════════

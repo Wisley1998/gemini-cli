@@ -1,0 +1,58 @@
+Prompt 文件: prompt_050_django__django-13220.txt
+Prompt 类型: swebench
+测试时间: 2025-10-22 11:28:41
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 ada3e700-e4b1-422d-b61a-71e3e6f058a2            │
+│  Tool Calls:                 4 ( ✓ 3 x 1 )                                   │
+│  Success Rate:               75.0%                                           │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  1m 2s                                           │
+│  Agent Active:               1m 3s                                           │
+│    » API Time:               13.2s (20.7%)                                   │
+│      • gemini-2.5-flash:     13.2s (100.0%)                                  │
+│    » Tool Time:              50.7s (79.3%)                                   │
+│      • run_shell_command:    28.3s (55.7%)                                   │
+│        ‣ cd:                 28.2s (99.9%)                                   │
+│        ‣ mkdir:              29ms (0.1%)                                     │
+│      • MCP Init:             11.9s (23.4%)                                   │
+│      • fetch_url:            10.6s (20.8%)                                   │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  519ms (4.4%)                                    │
+│        ‣ Connection:         515ms (99.2%)                                   │
+│        ‣ Discovery:          4ms (0.8%)                                      │
+│                                                                              │
+│      • playwright:           2.1s (17.6%)                                    │
+│        ‣ Connection:         2.1s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              2.4s (20.2%)                                    │
+│        ‣ Connection:         2.4s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  6.9s (57.8%)                                    │
+│        ‣ Connection:         6.9s (100.0%)                                   │
+│        ‣ Discovery:          3ms (0.0%)                                      │
+│                                                                              │
+│    » Tool Validation:        1ms                                             │
+│    » User Confirmation:      1ms                                             │
+│    » Tool Execution:         38.8s                                           │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                4         58,123            219             │
+│                                                                              │
+│  Savings Highlight: 53,829 (92.6%) of input tokens were served from the      │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

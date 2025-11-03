@@ -1,0 +1,57 @@
+Prompt 文件: prompt_038_38.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 12:12:33
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 734cf5b4-bfbd-47e8-a547-462604e22b96            │
+│  Tool Calls:                 1 ( ✓ 1 x 0 )                                   │
+│  Success Rate:               100.0%                                          │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  4m 55s                                          │
+│  Agent Active:               5m 23s                                          │
+│    » API Time:               3m 46s (70.0%)                                  │
+│      • gemini-2.5-flash:     3m 46s (100.0%)                                 │
+│    » Tool Time:              1m 37s (30.0%)                                  │
+│      • MCP Init:             35.8s (36.9%)                                   │
+│      • fetch_url (fetcher):  30.7s (31.6%)                                   │
+│        ‣ MCP Call:           30.6s (99.8%)                                   │
+│          - Other:            28.8s (94.0%)                                   │
+│          - Navigation:       1.6s (5.3%)                                     │
+│          - Browser Launch:   199ms (0.7%)                                    │
+│          - Get Content:      13ms (0.0%)                                     │
+│          - Context Creation: 5ms (0.0%)                                      │
+│          - Page Close:       4ms (0.0%)                                      │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  553ms (1.5%)                                    │
+│        ‣ Connection:         549ms (99.3%)                                   │
+│        ‣ Discovery:          4ms (0.7%)                                      │
+│                                                                              │
+│      • playwright:           1.3s (3.7%)                                     │
+│        ‣ Connection:         1.3s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              1.7s (4.7%)                                     │
+│        ‣ Connection:         1.7s (99.9%)                                    │
+│        ‣ Discovery:          1ms (0.1%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  32.2s (90.0%)                                   │
+│        ‣ Connection:         32.2s (100.0%)                                  │
+│        ‣ Discovery:          2ms (0.0%)                                      │
+│                                                                              │
+│    » Tool Validation:        1ms                                             │
+│    » User Confirmation:      1ms                                             │
+│    » Tool Execution:         30.7s                                           │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                2         13,430            117             │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

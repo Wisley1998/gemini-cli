@@ -1,0 +1,12 @@
+digraph G {
+  rankdir=LR;
+  node [fontname="Arial"];
+  edge [fontname="Arial"];
+
+  "session:10-22-19-1" [label="10-22-19-1", shape="doubleoctagon", fillcolor="gold", style="filled"];
+  "ev:0" [label="LLM-0 **Considering Simulations of Electric Fields**\n\n", shape="box", fillcolor="lightblue", style="filled"];
+  "phase:search" [label="search", shape="folder", fillcolor="lightgoldenrodyellow", style="filled"];
+
+  "ev:0" -> "phase:search" [color="gray", style="dotted"];
+  "ev:0" -> "session:10-22-19-1" [color="gray", style="dotted"];
+}

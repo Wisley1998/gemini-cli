@@ -1,0 +1,51 @@
+Prompt 文件: prompt_015_15.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 11:08:29
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 e6833dd3-0956-4c9a-a61b-47e59b685e9a            │
+│  Tool Calls:                 0 ( ✓ 0 x 0 )                                   │
+│  Success Rate:               0.0%                                            │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  1m 1s                                           │
+│  Agent Active:               44.1s                                           │
+│    » API Time:               5.4s (12.2%)                                    │
+│      • gemini-2.5-flash:     5.4s (100.0%)                                   │
+│    » Tool Time:              38.7s (87.8%)                                   │
+│      • MCP Init:             38.7s (100.0%)                                  │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  564ms (1.5%)                                    │
+│        ‣ Connection:         560ms (99.3%)                                   │
+│        ‣ Discovery:          4ms (0.7%)                                      │
+│                                                                              │
+│      • playwright:           1.5s (3.9%)                                     │
+│        ‣ Connection:         1.5s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              1.9s (4.9%)                                     │
+│        ‣ Connection:         1.9s (99.9%)                                    │
+│        ‣ Discovery:          1ms (0.1%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  34.8s (89.8%)                                   │
+│        ‣ Connection:         34.8s (100.0%)                                  │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                1         13,489            147             │
+│                                                                              │
+│  Savings Highlight: 12,895 (95.6%) of input tokens were served from the      │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

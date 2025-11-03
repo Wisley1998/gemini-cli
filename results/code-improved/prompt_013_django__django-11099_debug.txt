@@ -1,0 +1,138 @@
+调试信息 - 输出总长度: 7422298 字符
+================================================================================
+
+最后 5000 字符:
+ssessing Task Closure
+(esc to cancel, 4m 19s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+   1 Testing against Django installed in '/Users/suiyifan/Desktop/
+     multi-agnets/gemini-cli/swe-bench-workspace/django__django-
+     1109
+⠋ Assessing Task Closure
+(esc to cancel, 4m 19s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+   1 Testing against Django installed in '/Users/suiyifan/Desktop/
+     multi-agnets/gemini-cli/swe-bench-workspace/django__django-
+     1109
+⠙ Assessing Task Closure
+(esc to cancel, 4m 19s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+   1 Testing against Django installed in '/Users/suiyifan/Desktop/
+     multi-agnets/gemini-cli/swe-bench-workspace
+     /django__django-11099/django/django'
+   2 System check identified no issues (0 silenced).
+   3 Creating test database for alias 'default'...
+   4 ...
+   5 -------------------------------------------------------------
+     ---------
+   6 Ran 3 tests in 0.001s
+   7 
+   8 OK
+   9 Destroying test database for alias 'default'...
+
+ℹCitations:
+  https://huggingface.co/datasets/exploiter345/SWE-bench_Verified_Lite_Ann
+  t
+⠙ Assessing Task Closure
+(esc to cancel, 4m 19s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)

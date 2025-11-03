@@ -1,0 +1,53 @@
+Prompt 文件: prompt_002_astropy__astropy-14182.txt
+Prompt 类型: swebench
+测试时间: 2025-10-21 17:44:33
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 49b92c75-4e77-406a-a144-1af9e3855282            │
+│  Tool Calls:                 1 ( ✓ 1 x 0 )                                   │
+│  Success Rate:               100.0%                                          │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  37.2s                                           │
+│  Agent Active:               21.1s                                           │
+│    » API Time:               8.6s (40.8%)                                    │
+│      • gemini-2.5-flash:     8.6s (100.0%)                                   │
+│    » Tool Time:              12.5s (59.2%)                                   │
+│      • MCP Init:             12.4s (99.8%)                                   │
+│      • read_file:            19ms (0.2%)                                     │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  546ms (4.4%)                                    │
+│        ‣ Connection:         542ms (99.3%)                                   │
+│        ‣ Discovery:          4ms (0.7%)                                      │
+│                                                                              │
+│      • playwright:           2.1s (16.5%)                                    │
+│        ‣ Connection:         2.1s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              2.5s (20.2%)                                    │
+│        ‣ Connection:         2.5s (100.0%)                                   │
+│        ‣ Discovery:          0s (0.0%)                                       │
+│                                                                              │
+│      • pydantic-run-python:  7.3s (58.9%)                                    │
+│        ‣ Connection:         7.3s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│    » Tool Execution:         19ms                                            │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                2         28,488            215             │
+│                                                                              │
+│  Savings Highlight: 2,927 (10.3%) of input tokens were served from the       │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

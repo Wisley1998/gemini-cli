@@ -1,0 +1,41 @@
+Prompt 文件: prompt_001_astropy__astropy-12907.txt
+Prompt 类型: swebench
+测试时间: 2025-10-21 17:59:08
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 56fdbe75-e408-4be4-ad2f-18018ce1b7b8            │
+│  Tool Calls:                 0 ( ✓ 0 x 0 )                                   │
+│  Success Rate:               0.0%                                            │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  28.9s                                           │
+│  Agent Active:               12.8s                                           │
+│    » API Time:               0s (0.0%)                                       │
+│    » Tool Time:              12.8s (100.0%)                                  │
+│      • MCP Init:             12.8s (100.0%)                                  │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  552ms (4.3%)                                    │
+│        ‣ Connection:         548ms (99.3%)                                   │
+│        ‣ Discovery:          4ms (0.7%)                                      │
+│                                                                              │
+│      • playwright:           2.0s (15.6%)                                    │
+│        ‣ Connection:         2.0s (99.9%)                                    │
+│        ‣ Discovery:          1ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              2.6s (20.3%)                                    │
+│        ‣ Connection:         2.6s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  7.7s (59.9%)                                    │
+│        ‣ Connection:         7.7s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

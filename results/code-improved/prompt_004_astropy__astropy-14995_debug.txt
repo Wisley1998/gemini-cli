@@ -1,0 +1,135 @@
+调试信息 - 输出总长度: 6363314 字符
+================================================================================
+
+最后 5000 字符:
+──────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+⠴ Assessing the impasse
+(esc to cancel, 1m 25s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+⠦ Assessing the impasse
+(esc to cancel, 1m 25s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+✦ The Astropy build process is failing with a ModuleNotFoundError: No 
+  module named 'setuptools.dep_util'. This module has been removed in
+  newer setuptools versions, causing a conflict with Astropy's build
+  scripts. I cannot run tests or generate a patch until this build issue
+  is resolved.
+⠦ Assessing the impasse
+(esc to cancel, 1m 25s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+✦ The Astropy build process is failing with a ModuleNotFoundError: No 
+  module named 'setuptools.dep_util'. This module has been removed in
+  newer setuptools versions, causing a conflict with Astropy's build
+  scripts. I cannot run tests or generate a patch until this build issue
+  is resolved.
+
+  Please advise on how to proceed.
+⠦ Assessing the impasse
+(esc to cancel, 1m 25s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+  Please advise on how to proceed.
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (95% context left)  | ✖ 12 errors (ctrl+o for details)

@@ -1,0 +1,8 @@
+{
+  "model": "gemini-2.0-flash-exp",
+  "systemInstruction": "You are a research assistant. Your PRIMARY goal is to USE TOOLS, not to talk about using tools. RULES: (1) If you find yourself repeating the same sentence, STOP immediately and call a tool. (2) Never say 'I will' - just DO. (3) Start by calling playwright_browser.open or fetch_url with a real URL. (4) Minimum 5 tool calls required before any conclusion.",
+  "generationConfig": {
+    "temperature": 0.7,
+    "maxOutputTokens": 8000
+  }
+}

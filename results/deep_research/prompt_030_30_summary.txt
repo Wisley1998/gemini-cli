@@ -1,0 +1,46 @@
+Prompt 文件: prompt_030_30.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 11:49:25
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 f856dd25-5e12-4b9a-80a3-0ffe8003f487            │
+│  Tool Calls:                 0 ( ✓ 0 x 0 )                                   │
+│  Success Rate:               0.0%                                            │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  5m 3s                                           │
+│  Agent Active:               4m 48s                                          │
+│    » API Time:               3m 50s (79.9%)                                  │
+│      • gemini-2.5-flash:     3m 50s (100.0%)                                 │
+│    » Tool Time:              57.8s (20.1%)                                   │
+│      • MCP Init:             57.8s (100.0%)                                  │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  536ms (0.9%)                                    │
+│        ‣ Connection:         532ms (99.3%)                                   │
+│        ‣ Discovery:          4ms (0.7%)                                      │
+│                                                                              │
+│      • playwright:           1.4s (2.4%)                                     │
+│        ‣ Connection:         1.4s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              1.8s (3.0%)                                     │
+│        ‣ Connection:         1.8s (99.9%)                                    │
+│        ‣ Discovery:          1ms (0.1%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  54.1s (93.6%)                                   │
+│        ‣ Connection:         54.1s (100.0%)                                  │
+│        ‣ Discovery:          2ms (0.0%)                                      │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                1              0              0             │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

@@ -1,0 +1,117 @@
+调试信息 - 输出总长度: 6737876 字符
+================================================================================
+
+最后 5000 字符:
+✖ 12 errors (ctrl+o for details)
+⠏ Testing Attempt
+(esc to cancel, 3m 51s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+⠋ Testing Attempt
+(esc to cancel, 3m 51s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+ℹRequest cancelled.
+ 
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ * ⚙️ 工作环境配置                                                   │
+│   ══════════════════════════════════════════════════════════         │
+│   ═════════                                                          │
+│   当前工作目录:                                                      │
+│   /Users/suiyifan/Desktop/multi-agnets/gemini-cli                    │
+│   Workspace根目录:                                                   │
+│   /Users/suiyifan/Desktop/multi-agnets/gemini-cli                    │
+│   任务工作区:                                                        │
+│   /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench-         │
+│   workspace                                                          │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ * ══════════════════════════════════════════════════════════         │
+│   ═════════                                                          │
+│   要求:                                                              │
+│   1. 要点式输出，使用短句和列表                                      │
+│   2. 直接给出结论和代码改动                                          │
+│   3. 不要冗长的解释，聚焦于关键信息                                  │
+│   4. 每个步骤完成后简要报告状态                                      │
+│   5. 最后提供文件路径摘要                                            │
+│   ══════════════════════════════════════════════════════════         │
+│   ═════════                                                          │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ * ══════════════════════════════════════════════════════════         │
+│   ═════════                                                          │
+│   要求:                                                              │
+│   1. 要点式输出，使用短句和列表                                      │
+│   2. 直接给出结论和代码改动                                          │
+│   3. 不要冗长的解释，聚焦于关键信息                                  │
+│   4. 每个步骤完成后简要报告状态                                      │
+│   5. 最后提供文件路径摘要                                            │
+│   ══════════════════════════════════════════════════════════         │
+│   ═════════                                                          │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 12 errors (ctrl+o for details)

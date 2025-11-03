@@ -1,0 +1,141 @@
+调试信息 - 输出总长度: 1864780 字符
+================================================================================
+
+最后 5000 字符:
+───────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 6 errors (ctrl+o for details)
+⠦ Just a sec, I'm optimizing the humor...
+(esc to cancel, 3m 38s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 6 errors (ctrl+o for details)
+✕ [API Error: [{
+    "error": {
+      "code": 429,
+      "message": "Quota exceeded for quota metric 'StreamGenerateContent 
+  Requests' and limit 'StreamGenerateContent Requests per day per user per
+   tier' of service 'cloudcode-pa.googleapis.com' for consumer 
+  'project_number:681255809395'.",
+      "errors": [
+        {
+          "message": "Quota exceeded for quota metric 
+  'StreamGenerateContent Requests' and limit 'StreamGenerateContent 
+  Requests per day per user per tier' of service 
+  'cloudcode-pa.googleapis.com' for consumer 
+  'project_number:681255809395'.",
+          "domain": "global",
+          "reason": "rateLimitExceeded"
+        }
+      ],
+      "status": "RESOURCE_EXHAUSTED",
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+          "reason": "RATE_LIMIT_EXCEEDED",
+          "domain": "googleapis.com",
+          "metadata": {
+            "quota_metric": 
+  "cloudcode-pa.googleapis.com/stream_generate_content_requests",
+            "quota_limit": "StreamGenerateContentRequestsPerDay"
+          }
+        },
+        {
+          "@type": "type.googleapis.com/google.rpc.Help",
+          "links": [
+            {
+              "description": "Request a higher quota limit.",
+              "url": 
+  "https://cloud.google.com/docs/quotas/help/request_increase"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  ]]
+  Possible quota limitations in place or slow response times detected. 
+  Switching to the gemini-2.5-flash-lite model for the rest of this 
+  session.
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 6 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 7 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 7 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 7 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 7 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (100% context left)  | ✖ 7 errors (ctrl+o for details)

@@ -1,0 +1,64 @@
+Prompt 文件: prompt_045_45.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 12:34:57
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 2e34ed9e-50c9-499f-b7ae-83201449f916            │
+│  Tool Calls:                 5 ( ✓ 5 x 0 )                                   │
+│  Success Rate:               100.0%                                          │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  2m 44s                                          │
+│  Agent Active:               3m 23s                                          │
+│    » API Time:               51.6s (25.4%)                                   │
+│      • gemini-2.5-flash:     51.6s (100.0%)                                  │
+│    » Tool Time:              2m 31s (74.6%)                                  │
+│      • fetch_url (fetcher):  56.6s (37.3%)                                   │
+│        ‣ MCP Call:           56.4s (99.5%)                                   │
+│          - Navigation:       9.5s (16.8%)                                    │
+│          - Page Load:        3.0s (5.3%)                                     │
+│          - DOMContentLoaded: 917ms (1.6%)                                    │
+│          - Other:            876ms (1.6%)                                    │
+│          - Browser Launch:   199ms (0.4%)                                    │
+│          - Context Creation: 4ms (0.0%)                                      │
+│          - Get Content:      4ms (0.0%)                                      │
+│          - Page Close:       3ms (0.0%)                                      │
+│        ‣ Serialization:      1ms (0.0%)                                      │
+│      • MCP Init:             38.8s (25.5%)                                   │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  550ms (1.4%)                                    │
+│        ‣ Connection:         547ms (99.5%)                                   │
+│        ‣ Discovery:          3ms (0.5%)                                      │
+│                                                                              │
+│      • playwright:           1.4s (3.6%)                                     │
+│        ‣ Connection:         1.4s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              1.9s (4.8%)                                     │
+│        ‣ Connection:         1.9s (99.9%)                                    │
+│        ‣ Discovery:          1ms (0.1%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  35.0s (90.2%)                                   │
+│        ‣ Connection:         35.0s (100.0%)                                  │
+│        ‣ Discovery:          2ms (0.0%)                                      │
+│                                                                              │
+│    » User Confirmation:      2ms                                             │
+│    » Tool Execution:         56.6s                                           │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                6        234,787            612             │
+│                                                                              │
+│  Savings Highlight: 139,347 (59.4%) of input tokens were served from the     │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

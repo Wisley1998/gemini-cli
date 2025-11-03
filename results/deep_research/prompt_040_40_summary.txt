@@ -1,0 +1,78 @@
+Prompt 文件: prompt_040_40.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 12:22:29
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 3e061130-ac34-4599-8a67-fb85344d6ac1            │
+│  Tool Calls:                 10 ( ✓ 8 x 2 )                                  │
+│  Success Rate:               80.0%                                           │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  4m 38s                                          │
+│  Agent Active:               5m 1s                                           │
+│    » API Time:               3m 5s (61.6%)                                   │
+│      • gemini-2.5-flash:     3m 5s (100.0%)                                  │
+│    » Tool Time:              1m 55s (38.4%)                                  │
+│      • MCP Init:             32.2s (27.8%)                                   │
+│      • fetch_url (fetcher):  31.3s (27.0%)                                   │
+│        ‣ MCP Call:           31.2s (99.5%)                                   │
+│          - Navigation:       16.0s (51.4%)                                   │
+│          - Page Load:        6.0s (19.3%)                                    │
+│          - DOMContentLoaded: 809ms (2.6%)                                    │
+│          - Browser Launch:   107ms (0.3%)                                    │
+│          - Context Creation: 3ms (0.0%)                                      │
+│          - Page Close:       3ms (0.0%)                                      │
+│          - Get Content:      2ms (0.0%)                                      │
+│      • browser_navigate      6.9s (5.9%)                                     │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           6.7s (97.8%)                                    │
+│          - DOMContentLoaded: 1.6s (23.9%)                                    │
+│          - Navigation:       1.0s (15.4%)                                    │
+│          - Browser Launch:   733ms (10.9%)                                   │
+│          - Page Load:        168ms (2.5%)                                    │
+│      • browser_click:        5.1s (4.4%)                                     │
+│      • browser_type          1.1s (0.9%)                                     │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           1.0s (95.3%)                                    │
+│      • browser_press_key:    254ms (0.2%)                                    │
+│      • browser_snapshot      95ms (0.1%)                                     │
+│      (playwright):                                                           │
+│        ‣ MCP Call:           44ms (46.3%)                                    │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  885ms (2.7%)                                    │
+│        ‣ Connection:         880ms (99.4%)                                   │
+│        ‣ Discovery:          5ms (0.6%)                                      │
+│                                                                              │
+│      • playwright:           1.8s (5.7%)                                     │
+│        ‣ Connection:         1.8s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              2.4s (7.6%)                                     │
+│        ‣ Connection:         2.4s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  27.0s (84.0%)                                   │
+│        ‣ Connection:         27.0s (100.0%)                                  │
+│        ‣ Discovery:          2ms (0.0%)                                      │
+│                                                                              │
+│    » Tool Validation:        3ms                                             │
+│    » User Confirmation:      6ms                                             │
+│    » Tool Execution:         39.4s                                           │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash               11        456,840          1,306             │
+│                                                                              │
+│  Savings Highlight: 132,661 (29.0%) of input tokens were served from the     │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

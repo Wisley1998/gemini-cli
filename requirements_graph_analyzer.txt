@@ -1,0 +1,12 @@
+# 事件-资源图分析工具依赖
+
+# 图处理和分析
+networkx>=3.0
+
+# DOT格式导出和PNG生成
+pydot>=1.4.2
+
+# 注意: 生成PNG还需要系统级的Graphviz
+# macOS: brew install graphviz
+# Ubuntu/Debian: sudo apt-get install graphviz
+# Windows: 下载并安装 https://graphviz.org/download/

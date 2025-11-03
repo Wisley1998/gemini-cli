@@ -1,0 +1,37 @@
+Prompt 文件: prompt_058_58.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 13:08:17
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 28f0fa01-cf04-4cfc-a009-7b73e2aee951            │
+│  Tool Calls:                 0 ( ✓ 0 x 0 )                                   │
+│  Success Rate:               0.0%                                            │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  23.8s                                           │
+│  Agent Active:               4.2s                                            │
+│    » API Time:               0s (0.0%)                                       │
+│    » Tool Time:              4.2s (100.0%)                                   │
+│      • MCP Init:             4.2s (100.0%)                                   │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  625ms (15.0%)                                   │
+│        ‣ Connection:         622ms (99.5%)                                   │
+│        ‣ Discovery:          3ms (0.5%)                                      │
+│                                                                              │
+│      • playwright:           1.5s (36.7%)                                    │
+│        ‣ Connection:         1.5s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              2.0s (48.3%)                                    │
+│        ‣ Connection:         2.0s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

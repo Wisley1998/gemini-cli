@@ -1,0 +1,122 @@
+调试信息 - 输出总长度: 7413502 字符
+================================================================================
+
+最后 5000 字符:
+/Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench
+     -workspace/astropy__astropy-14182/fix_14182.patch
+   - 报告文件: `/Users/suiyifan/Desktop/multi-agnets/gem
+⠧ Addressing Environment Incompatibilities
+(esc to cancel, 3m 43s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)
+   - 修改文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench
+     -workspace/astropy__astropy-14182/astropy/astropy/io/ascii/rst.py
+   - 补丁文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench
+     -workspace/astropy__astropy-14182/fix_14182.patch
+   - 报告文件: `/Users/suiyifan/Desktop/multi-agnets/gem
+⠇ Addressing Environment Incompatibilities
+(esc to cancel, 3m 43s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)
+   - 修改文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench
+     -workspace/astropy__astropy-14182/astropy/astropy/io/ascii/rst.py
+   - 补丁文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench
+     -workspace/astropy__astropy-14182/fix_14182.patch
+   - 报告文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench
+     -workspace/astropy__astropy-14182/fix_report_14182.md
+⠇ Addressing Environment Incompatibilities
+(esc to cancel, 3m 43s)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)
+   - 修改文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench-w
+     orkspace/astropy__astropy-14182/astropy/astropy/io/ascii/rst.py
+   - 补丁文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench-w
+     orkspace/astropy__astropy-14182/fix_14182.patch
+   - 报告文件: /Users/suiyifan/Desktop/multi-agnets/gemini-cli/swe-bench-w
+     orkspace/astropy__astropy-14182/fix_report_14182.md
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)
+
+Press Ctrl+C again to exit.               YOLO mode (ctrl + y to toggle)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)
+
+Using:
+  - 2 GEMINI.md files                     YOLO mode (ctrl + y to toggle)
+  - 6 MCP servers (ctrl+t to view)
+╭──────────────────────────────────────────────────────────────────────╮
+│ *   Type your message or @path/to/file                               │
+╰──────────────────────────────────────────────────────────────────────╯
+gemini-cli (yifan*)
+
+no sandbox (see /docs)
+
+gemini-2.5-flash (96% context left)  | ✖ 14 errors (ctrl+o for details)

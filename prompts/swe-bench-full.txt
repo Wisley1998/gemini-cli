@@ -1,0 +1,22 @@
+任务:处理 pytest 项目的 issue #13802
+
+Issue 链接:https://github.com/pytest-dev/pytest/issues/13802
+
+执行步骤:
+1. 首先克隆仓库:用MCP工具来克隆： https://github.com/pytest-dev/pytest.git 
+2. 访问 issue 链接,阅读问题描述(使用 fetch_url 或浏览器工具)
+3. 判断这是 bug 修复还是功能实现
+4. 在 src/_pytest/ 目录下定位相关代码文件
+5. 分析当前实现和问题根因
+6. 提出并实施解决方案(注意:使用 import time 而不是 timing 模块获取时间戳)
+7. 编写简单的测试验证
+8. 生成补丁: cd pytest && git diff > ../fix_13802.patch
+9. 生成修复报告到 ../fix_report_13802.md
+
+重要提示:
+- pytest 源码在 src/_pytest/ 目录下
+- 使用 time.time() 获取时间戳,不要使用不存在的 timing 模块
+- 保持代码简洁,避免过度复杂的实现
+- 所有文件操作使用绝对路径
+- 尽可能多使用各种MCP工具协助你完成任务（特别是Github MCP）
+

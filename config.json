@@ -1,0 +1,28 @@
+{
+  "mcp": {
+    "servers": {
+      "playwright": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-playwright@0.4.0"],
+        "env": {
+          "DEBUG": "pw:api,pw:browser"
+        }
+      },
+      "fetcher": {
+        "command": "uvx",
+        "args": ["mcp-server-fetch"],
+        "env": {
+          "DEBUG": "pw:api,pw:browser"
+        }
+      },
+      "github": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-github"],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}",
+          "LOG_LEVEL": "debug"
+        }
+      }
+    }
+  }
+}

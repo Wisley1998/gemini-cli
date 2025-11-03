@@ -1,0 +1,22 @@
+{
+  "name": "mcp-performance-tests",
+  "version": "1.0.0",
+  "description": "Standalone performance tests for MCP servers",
+  "type": "module",
+  "scripts": {
+    "test": "node test-all.js",
+    "test:github": "node test-github.js",
+    "test:playwright": "node test-playwright.js",
+    "test:huggingface": "node test-huggingface.js",
+    "test:pydantic": "node test-pydantic.js",
+    "test:fetcher": "node test-fetcher.js",
+    "test:docker": "node test-docker.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

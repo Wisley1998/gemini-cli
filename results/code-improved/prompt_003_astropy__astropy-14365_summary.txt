@@ -1,0 +1,14 @@
+Prompt 文件: prompt_003_astropy__astropy-14365.txt
+Prompt 类型: swebench
+测试时间: 2025-10-22 18:06:13
+================================================================================
+
+📊 MCP 性能数据:
+  [{ name: 'Browser Launch', timeMs: 341 },
+  { name: 'Context Creation', timeMs: 3 },
+  { name: 'Navigation', timeMs: 3938 },
+  { name: 'DOMContentLoaded', timeMs: 1587 },
+  { name: 'Page Load', timeMs: 1200 },
+  { name: 'Get Content', timeMs: 15 },
+  { name: 'Page Close', timeMs: 5 },
+  { name: 'Other', timeMs: 1250 }]

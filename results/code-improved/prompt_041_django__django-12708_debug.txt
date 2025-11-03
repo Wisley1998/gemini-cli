@@ -1,0 +1,22 @@
+调试信息 - 输出总长度: 1435 字符
+================================================================================
+
+最后 5000 字符:
+(node:86446) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86446) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(node:86460) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86460) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Loaded cached credentials.
+[MCP Debug] Internal timing capture enabled for playwright (DEBUG=pw:api,pw:browser)
+[MCP Debug] Writing stderr DEBUG output for playwright to /tmp/mcp-debug-playwright-1761114921013.log
+[MCP Debug] Internal timing capture enabled for fetcher (DEBUG=pw:api,pw:browser)
+[MCP Debug] Writing stderr DEBUG output for fetcher to /tmp/mcp-debug-fetcher-1761114921014.log
+Okay, I will proceed with the SWE-bench task `django__django-12708` following the outlined steps.
+
+**Step 1: Create working directory**
+Working directory created.
+
+**Step 2: Clone repository**
+^C

@@ -1,0 +1,57 @@
+Prompt 文件: prompt_002_2_improved.txt
+测试时间: 2025-10-16 20:19:11
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 75375cad-7729-4e85-9c0c-eb45aae88ab6            │
+│  Tool Calls:                 1 ( ✓ 0 x 1 )                                   │
+│  Success Rate:               0.0%                                            │
+│  User Agreement:             0.0% (1 reviewed)                               │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  37.3s                                           │
+│  Agent Active:               42.2s                                           │
+│    » API Time:               7.2s (17.0%)                                    │
+│      • gemini-2.5-flash:     7.2s (100.0%)                                   │
+│    » Tool Time:              35.0s (83.0%)                                   │
+│      • MCP Init:             19.7s (56.4%)                                   │
+│      • fetch_url:            15.3s (43.6%)                                   │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • github:               284ms (1.4%)                                    │
+│        ‣ Connection:         278ms (97.9%)                                   │
+│        ‣ Discovery:          6ms (2.1%)                                      │
+│                                                                              │
+│      • playwright:           2.3s (11.5%)                                    │
+│        ‣ Connection:         2.3s (99.9%)                                    │
+│        ‣ Discovery:          2ms (0.1%)                                      │
+│                                                                              │
+│      • git:                  2.4s (12.0%)                                    │
+│        ‣ Connection:         2.4s (99.9%)                                    │
+│        ‣ Discovery:          3ms (0.1%)                                      │
+│                                                                              │
+│      • fetcher:              2.8s (14.3%)                                    │
+│        ‣ Connection:         2.8s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│      • docker:               3.4s (17.1%)                                    │
+│        ‣ Connection:         3.4s (99.9%)                                    │
+│        ‣ Discovery:          5ms (0.1%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  8.6s (43.7%)                                    │
+│        ‣ Connection:         8.6s (100.0%)                                   │
+│        ‣ Discovery:          2ms (0.0%)                                      │
+│                                                                              │
+│    » User Confirmation:      2ms                                             │
+│    » Tool Execution:         15.3s                                           │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                1         14,281              9             │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

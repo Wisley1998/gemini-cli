@@ -1,0 +1,56 @@
+Prompt 文件: prompt_057_57.txt
+Prompt 类型: deepresearch
+测试时间: 2025-10-21 13:07:49
+================================================================================
+
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 8b431597-1be6-458a-b84b-f2b3df7ec6d1            │
+│  Tool Calls:                 10 ( ✓ 10 x 0 )                                 │
+│  Success Rate:               100.0%                                          │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  1m 53s                                          │
+│  Agent Active:               7m 5s                                           │
+│    » API Time:               10.7s (2.5%)                                    │
+│      • gemini-2.5-flash:     10.7s (100.0%)                                  │
+│    » Tool Time:              6m 54s (97.5%)                                  │
+│      • fetch_url (fetcher):  3m (43.6%)                                      │
+│        ‣ MCP Call:           3m (99.7%)                                      │
+│          - Other:            2.9s (1.6%)                                     │
+│          - Navigation:       1.4s (0.8%)                                     │
+│          - Browser Launch:   328ms (0.2%)                                    │
+│          - Context Creation: 5ms (0.0%)                                      │
+│          - Page Close:       1ms (0.0%)                                      │
+│      • MCP Init:             53.9s (13.0%)                                   │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • git:                  496ms (0.9%)                                    │
+│        ‣ Connection:         492ms (99.2%)                                   │
+│        ‣ Discovery:          4ms (0.8%)                                      │
+│                                                                              │
+│      • playwright:           1.3s (2.4%)                                     │
+│        ‣ Connection:         1.3s (99.8%)                                    │
+│        ‣ Discovery:          2ms (0.2%)                                      │
+│                                                                              │
+│      • fetcher:              1.6s (2.9%)                                     │
+│        ‣ Connection:         1.6s (100.0%)                                   │
+│        ‣ Discovery:          0s (0.0%)                                       │
+│                                                                              │
+│      • pydantic-run-python:  50.6s (93.8%)                                   │
+│        ‣ Connection:         50.6s (100.0%)                                  │
+│        ‣ Discovery:          2ms (0.0%)                                      │
+│                                                                              │
+│    » Tool Validation:        9ms                                             │
+│    » User Confirmation:      2m 8s                                           │
+│    » Tool Execution:         3m                                              │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                2         13,461            274             │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

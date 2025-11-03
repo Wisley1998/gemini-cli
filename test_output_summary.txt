@@ -1,0 +1,54 @@
+Agent powering down. Goodbye!                                               │
+│                                                                              │
+│  Interaction Summary                                                         │
+│  Session ID:                 c77c4d39-8bbd-4121-b6d4-7102a3d472dd            │
+│  Tool Calls:                 0 ( ✓ 0 x 0 )                                   │
+│  Success Rate:               0.0%                                            │
+│                                                                              │
+│  Performance                                                                 │
+│  Wall Time:                  33.3s                                           │
+│  Agent Active:               25.2s                                           │
+│    » API Time:               2.7s (10.7%)                                    │
+│      • gemini-2.5-flash:     2.7s (100.0%)                                   │
+│    » Tool Time:              22.5s (89.3%)                                   │
+│      • MCP Init:             22.5s (100.0%)                                  │
+│                                                                              │
+│  Detailed Timing Breakdown                                                   │
+│                                                                              │
+│    » MCP Servers:            (detailed breakdown)                            │
+│      • github:               295ms (1.3%)                                    │
+│        ‣ Connection:         291ms (98.6%)                                   │
+│        ‣ Discovery:          4ms (1.4%)                                      │
+│                                                                              │
+│      • playwright:           2.7s (11.9%)                                    │
+│        ‣ Connection:         2.7s (99.9%)                                    │
+│        ‣ Discovery:          4ms (0.1%)                                      │
+│                                                                              │
+│      • git:                  2.8s (12.2%)                                    │
+│        ‣ Connection:         2.7s (99.9%)                                    │
+│        ‣ Discovery:          3ms (0.1%)                                      │
+│                                                                              │
+│      • docker:               3.4s (14.9%)                                    │
+│        ‣ Connection:         3.4s (99.8%)                                    │
+│        ‣ Discovery:          6ms (0.2%)                                      │
+│                                                                              │
+│      • fetcher:              4.0s (18.0%)                                    │
+│        ‣ Connection:         4.0s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│      • pydantic-run-python:  9.3s (41.5%)                                    │
+│        ‣ Connection:         9.3s (100.0%)                                   │
+│        ‣ Discovery:          1ms (0.0%)                                      │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│  Model Usage                  Reqs   Input Tokens  Output Tokens             │
+│  ───────────────────────────────────────────────────────────────             │
+│  gemini-2.5-flash                1         14,095              3             │
+│                                                                              │
+│  Savings Highlight: 9,756 (69.2%) of input tokens were served from the       │
+│  cache, reducing costs.                                                      │
+│                                                                              │
+│  » Tip: For a full token breakdown, run `/stats model`.                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
